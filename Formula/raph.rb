@@ -12,10 +12,10 @@ class Raph < Formula
     strategy :github_latest
   end
 
-  bottle do
-    rebuild 1
-    sha256 cellar: :any,    sonoma:   "143f0bb99a786c369d34f22469f5492d2e7b5d28fba206fe8a687ab6f741be33"
-  end
+  # bottle do
+  #   rebuild 1
+  #   sha256 cellar: :any,    sonoma:   ""
+  # end
 
   depends_on "rust" => :build
 
