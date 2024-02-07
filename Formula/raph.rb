@@ -6,11 +6,11 @@ class Raph < Formula
   sha256 "9d3511f6043b795e957e3a408a5e3606233fc30a93093564bad72a609ee8d797"
   head "https://github.com/n-hass/raph.git"
 
-  livecheck do
-    url :stable
-    regex(/v?(\d+(?:[._]\d+)+)/i)
-    strategy :github_latest
-  end
+  # livecheck do
+  #   url :stable
+  #   regex(/v?(\d+(?:[._]\d+)+)/i)
+  #   strategy :github_latest
+  # end
 
   # bottle do
   #   rebuild 1
