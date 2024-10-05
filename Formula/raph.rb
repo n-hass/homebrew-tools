@@ -14,8 +14,9 @@ class Raph < Formula
 
   bottle do
     root_url "https://github.com/n-hass/raph/releases/download/v0.1.2"
-    rebuild 1
+    rebuild 2
     sha256 cellar: :any_skip_relocation, sonoma: "7fe291631a81807378a3a227a94cc906a4c18159e4e59cf56ab3cc9700348ed9"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "2297cd2a6c0e1650f0a76cbea5618f416608d5dd4ec3d6b39b4462cb73df94ec"
   end
 
   depends_on "rust" => :build
